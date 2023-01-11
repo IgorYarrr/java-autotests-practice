@@ -15,7 +15,7 @@ public class MyStepdefs {
         user = arg0;
     }
 
-    @Когда("отправляю сообщения в VPS иdспользуя {string}")
+    @Когда("отправляю сообщения в VPS используя {string}")
     public void отправляюСообщенияВVPSИспользуя(String arg0) {
         sentMessage = arg0;
         isSent = true;
